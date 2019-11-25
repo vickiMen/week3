@@ -1,0 +1,113 @@
+{
+    "name": "cow",
+    "weightUnits": "tons",
+    "weight": 1,
+    "livesIn": [
+        "meadows"
+    ],
+    "endangered": false,
+    "foodTypes": [
+        "fibers",
+        "grains",
+        "oil seeds"
+    ],
+    "daylyConsumption": {
+        "fibers": "90%",
+        "grains": "5%",
+        "oil seeds": "5%"
+    },
+    "eatenBy": [
+        "humans",
+        "carnivores"
+    ],
+    "deliciousness": 0
+},
+{
+    "name": "elephant",
+    "weightUnits": "tons",
+    "weight": 5.5,
+    "livesIn": [
+        "savannas",
+        "forests",
+        "mountains",
+        "deserts"
+    ],
+    "endangered": false,
+    "foodTypes": [
+        "grass",
+        "fruit",
+        "bushes",
+        "twigs",
+        "tree bark",
+        "roots"
+    ],
+    "daylyConsumption": {
+        "grass": "80%",
+        "fruit": "10%",
+        "bushes": "2%",
+        "twigs": "5%",
+        "tree bark": "2%",
+        "roots":  "1%"
+    },
+    "eatenBy": [
+        "lions",
+        "tigers",
+        "hyenas"
+    ],
+    "deliciousness": 0
+},
+{
+    "name": "gray wolf",
+    "weightUnits": "kilos",
+    "weight": 50,
+    "livesIn": [
+        "tundra",
+        "mountains",
+        "woodlands",
+        "forests",
+        "grasslands",
+        "deserts"
+    ],
+    "endangered": true,
+    "foodTypes": [
+        "meat"
+    ],
+    "daylyConsumption": {
+        "meat": "100%"
+    },
+    "eatenBy": [
+        "bears"
+    ],
+    "deliciousness": 0
+},
+{
+    "name": "squirrel",
+    "weightUnits": "kilos",
+    "weight": 2,
+    "livesIn": [
+        "rainforests",
+        "deserts"
+    ],
+    "endangered": false,
+    "foodTypes": [
+        "seeds",
+        "nuts",
+        "insects",
+        "vertebrates"        
+    ],
+    "daylyConsumption": {
+        "seeds": "70%",
+        "nuts": "20%",
+        "insects": "5%",
+        "vertebrates": "5%"
+    },
+    "eatenBy": [
+        "owls",
+        "foxes",
+        "coyotes",
+        "wildcats",
+        "weasels",
+        "snakes"
+    ],
+    "deliciousness": 0
+}

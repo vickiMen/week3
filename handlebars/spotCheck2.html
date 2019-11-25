@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <script id='template1' type="text/x-handlebars-template">
+            <div>
+            {{#each animals}}
+                <p>{{name}}</p> 
+            {{/each}}
+            </div>
+    </script>
+    
+    <script id="template2" type="text/x-handlebars-template">
+        <div>
+        {{#each languages}}
+            <p>{{name}}</p>
+        {{/each}}
+        </div>
+    </script>
+
+    <div class='container'>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="spotCheck2.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <script id="class-template" type="text/x-handlebars-template">
+            <div>
+            {{#each classmates}}
+                {{#if socialNetwork}}
+                <p>{{name}} is {{description}}</p>
+                {{/if}}
+            {{/each}} 
+            </div>
+    </script>
+          
+          <div class='class'>
+
+          </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="spotCheck1.js"></script>
+</body>
+</html>
