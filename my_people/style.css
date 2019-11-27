@@ -1,0 +1,50 @@
+#board {
+    width: 80vw;
+    height: 80vh;
+    background-color: rgba(123, 123, 292, 0.6);
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template: 
+    ". . ."
+    ". . ."
+    ". . ."
+    ". c .";
+    /* box-shadow: 1px 1px 3px #0a1612; */
+}
+
+.card {
+    color: black;
+    width: 26vw;
+    height: 19vh;
+    display: grid;
+    text-align: center;
+    align-self: center;
+    font-family: Helvetica;
+    font-size: small;
+    cursor:  pointer;
+    box-shadow: 1px 1px 3px #0a1612;
+}
+
+.card:hover {
+    background-color: lavenderblush;
+}
+
+.name {
+    height: min-content;
+    cursor:  pointer;
+    display: grid;
+    justify-self: bottom;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+#id10 {
+    grid-area: c;
+}
+
+.email {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
